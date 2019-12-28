@@ -27,6 +27,7 @@ class _AnimatedGaugeState extends State<AnimatedGauge> with SingleTickerProvider
     super.initState();
     _controller = AnimationController(vsync: this, duration: Duration(milliseconds: 320));
     widget.driver.listen(on);
+    print('InitState');
   }
 
   void on(dynamic x) => setState(() {
