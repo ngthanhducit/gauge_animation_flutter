@@ -38,6 +38,7 @@ class _MainPageState extends State<MainPage> {
     print('print from develop branch');
     print("initState");
     print('rebase');
+    print('change release/v1');
   }
 
   @override
