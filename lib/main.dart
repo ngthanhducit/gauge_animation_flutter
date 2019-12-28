@@ -35,10 +35,7 @@ class _MainPageState extends State<MainPage> {
   void initState() {
     super.initState();
     _driver.listen((x) => setState(() {}));
-    print('print from develop branch');
-    print("initState");
-    print('rebase');
-    print('change release/v1');
+    print('branch release');
   }
 
   @override
